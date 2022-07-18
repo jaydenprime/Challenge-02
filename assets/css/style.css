@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 50;
+}
+
+body {
+    background-color: rgb(154, 154, 154);
+}
+
+
+
+
+/* Header */
+.header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding: 24px;
+    background-color: #000;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+/* Nav Links */
+.links {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color:#000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Image */
+.background {
+    height: 1000px;
+    width: 100%;
+    background-image: url("../images/background1.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+/* About me */
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.about-me {
+    flex-wrap: wrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#000;
+    color: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    position: relative;
+    padding: 50px;
+}
+
+#ab-label {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+/* My projects */
+.my-projects {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#000;
+    color: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
+
+#mp-label {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+
+.img-link:hover {
+    transform: scale(1.5);
+}
+
+
+/* Contact Info */
+.contact {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#000;
+    color: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    position: relative;
+    padding: 50px;
+}
+
+#c-label {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.email {
+    color:#fff;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+/* Viewport change based on device */
+@media screen and (max-width: 992px) {
+
+    .background {
+        display: none;
+    }
+
+    .float-left {
+        float: none;
+    }
+    
+    .about-me {
+        text-align: center;
+    }
+    
+    #ab-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .my-projects {
+        text-align: center;
+    }
+    
+    #mp-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    #c-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+}
+  
+/* Large Smartphones */
+@media screen and (max-width: 768px) {
+
+    .background {
+        display: none;
+    }
+
+    .float-left {
+        float: none;
+    }
+    
+    .about-me {
+        text-align: center;
+    }
+    
+    #ab-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .my-projects {
+        text-align: center;
+    }
+    
+    #mp-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    #c-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+}
+  
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+    
+    .background {
+        display: none;
+    }
+
+    .float-left {
+        float: none;
+    }
+    
+    .about-me {
+        text-align: center;
+    }
+    
+    #ab-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .my-projects {
+        text-align: center;
+    }
+    
+    #mp-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    #c-label {
+        position: absolute;
+        top: -40px;
+        left: 100px;
+        height: 30px;
+        width: 150px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-align: center;
+    }
+}
+  
